@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #333;
+    color: white;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Full width layout for sections */
+header, nav, main, footer {
+    width: 100%;
+}
+
+/* Header styling */
+header {
+    background-color: #333;
+    padding: 0px;
+}
+
+header h1 {
+    font-size: 1.5em;
+    margin-left: 20px;
+    padding-bottom: 60px;
+}
+
+/* Navigation styling - directly under the header */
+nav {
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    padding: 15px 0;
+}
+
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    font-size: 1.1em;
+}
+
+/* Remove any margin or padding between nav and main */
+main {
+    display: flex;
+    flex: 1;
+    background-color: #d3d3d3; /* Light gray background for the main section */
+    margin-top: 0; /* Ensure no gap above main */
+}
+
+/* Main content and aside side by side */
+.main-content {
+    flex: 2;
+    background-color: #b3b3b3; /* Slightly darker gray for main content */
+    padding: 20px;
+    color: black;
+}
+
+.aside-content {
+    flex: 1;
+    background-color: white; /* White for the aside content */
+    padding: 20px;
+    color: black;
+}
+
+/* Footer styling */
+footer {
+    background-color: #333;
+    padding: 20px;
+    text-align: center;
+    color: white;
+}

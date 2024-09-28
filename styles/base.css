@@ -22,33 +22,19 @@ header a {
     text-align: center;
 }
 
-/*nav {
-    background-color: #333;
-    overflow: hidden;
-}
-
-nav a {
-    float: left;
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 20px 30px;
-    text-decoration: none;
-}*/
-
 nav {
     background-color: #333;
-    text-align: center; /* Centers the nav links */
-    padding: 5px 0; /* Adds vertical padding to create space around the links */
+    text-align: center; 
+    padding: 5px 0; 
 }
 
 nav a {
-    display: inline-block; /* Ensures links behave as inline blocks for consistent spacing */
+    display: inline-block; 
     color: white;
     text-align: center;
-    padding: 5px 100px; /* Adds space between the links */
+    padding: 5px 100px; 
     text-decoration: none;
-    margin: 0 10px; /* Adds horizontal margin between the links */
+    margin: 0 10px; 
 }
 
 nav a:hover {
@@ -63,57 +49,39 @@ nav a:hover {
     border-radius: 5px;
 }
 
-/*.about-me, .web-resources {
-    background-color: rgb(255, 255, 255);
-    padding: 20px;
-    color:  #003366;
-    border-radius: 5px;
-    width: 45%;
-}*/
-
 .about-me, .web-resources {
-    background-color: white; /* Keep the main background white */
+    background-color: white; 
     padding: 25px;
     color: #003366;
     border-radius: 10px;
     width: 45%;
-    border: 1px solid #003366; /* Add a blue border around the whole section */
-    position: relative; /* Make the header's position relative to this container */
+    border: 1px solid #003366; 
+    position: relative; 
 }
 
 .about-me h2, .web-resources h2 {
-    background-color: #003366; /* Blue background for the section headers */
-    color: white; /* White text for the headers */
-    margin: -25px -25px 25px -25px; /* Extend the blue header to the edges */
+    background-color: #003366; 
+    color: white; 
+    margin: -25px -25px 25px -25px; 
     padding: 10px;
     text-align: center;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
 }
 
-/*.about-me h3{
-    text-decoration: underline;
-    text-align: center;
-    padding-top: 120px;
-}
 
 .about-me img {
-    float: right;
-    margin-right: 20px;
+    align-items: flex-start;
+    margin: 0; 
     border-radius: 5px;
-}*/
-
-.about-me img {align-items: flex-start;
-    margin: 0; /* Reset margins */
-    border-radius: 5px;
-    max-width: 150px; /* Optional: Adjust size of the image */
-    /*height: auto;  Maintain aspect ratio */
+    max-width: 150px; 
+    height: auto;  
 }
 
 .about-me p {align-items: flex-start;
-    margin: 0; /* Remove default margin */
-    flex-grow: 1;/* Allow the paragraph to take up the remaining space */
-    text-align: left; /* Text alignment */
+    margin: 0; 
+    flex-grow: 1;
+    text-align: left; 
 }
 
 .about-me h3 {
